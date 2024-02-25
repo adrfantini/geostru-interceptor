@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "GeoStru interceptor",
+  "description": "This extension intercepts a specific network call to download TXT data from https://geoapp.eu/parametrisismici2018/, and shows data in a better format.",
+  "version": "0.0.1",
+  "background": {
+    "scripts": ["papaparse.min.js", "background.js"]
+  },
+  "icons": {
+    "128": "logo.png"
+  },
+  "permissions": [
+    "*://geoapp.eu/parametrisismici2018/Home/GeneraReportTXT*",
+    "webRequest",
+    "webRequestBlocking",
+    "downloads"
+  ]
+}

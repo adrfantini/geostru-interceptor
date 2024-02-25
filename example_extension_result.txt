@@ -1,0 +1,26 @@
+
+Siti di riferimento:
+,ID,Latitudine (°),Longitudine (°),Distanza (m)
+Sito 1,28512,41.8804,12.4829,2855
+Sito 2,28513,41.881,12.5501,5050
+Sito 3,28291,41.931,12.5493,5264
+Sito 4,28290,41.9304,12.4821,3220
+
+Parametri sismici:
+,Prob. superamento (%),Tr (anni),ag (g),Fo (-),Tc (s)
+Operatività (SLO),81,30,0.043,2.527,0.257
+Danno (SLD),63,50,0.055,2.504,0.27
+Salvaguardia (SLV),10,475,0.12,2.62,0.297
+Prevenzione dal collasso (SLC),5,975,0.15,2.615,0.307
+
+Categoria sottosuolo: A
+Categoria topografica: T1
+Periodo di riferimento: 50
+Coefficiente cu: 1
+
+Coefficienti sismici:
+,Ss,Cc,St,Kh,Kv,Amax (m/s²),Beta
+SLO,1,1,1,0.009,0.004,0.425,0.2
+SLD,1,1,1,0.011,0.005,0.537,0.2
+SLV,1,1,1,0.035,0.017,1.179,0.29
+SLC,1,1,1,0.044,0.022,1.475,0.29
